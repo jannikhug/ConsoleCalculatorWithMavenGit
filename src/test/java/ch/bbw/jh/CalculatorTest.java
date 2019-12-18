@@ -11,6 +11,6 @@ public class CalculatorTest {
     @Test
     public void testSummeZweiPositiveIsOk(){
         testee = new Calculator();
-        assertTrue(testee.summe(10, 25)==35);
+        assertTrue(testee.summe(10, 25) ==35);
     }
 }

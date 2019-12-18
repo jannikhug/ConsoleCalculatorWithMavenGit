@@ -5,6 +5,6 @@ public class Calculator {
         return summe1+summe2;
     }
     public int subtraktion(int value1, int value2){
-        return 0;
+        return value1 - value2;
     }
 }

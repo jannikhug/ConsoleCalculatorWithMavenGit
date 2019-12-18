@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e5c4a14-432a-42cd-938c-a0cf270923a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ch/bbw/jh/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/bbw/jh/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch/bbw/jh/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/bbw/jh/Calculator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,13 +35,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="404" />
+          <entry key="java" value="452" />
           <entry key="xml" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="404" />
+          <entry key="JAVA" value="452" />
           <entry key="XML" value="57" />
         </counts>
       </usages-collector>
@@ -67,16 +67,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbw/jh/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="68">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbw/jh/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -105,9 +105,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/ch/bbw/jh/jh/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/bbw/jh/jh/Calculator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/bbw/jh/Calculator.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ch/bbw/jh/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ch/bbw/jh/Calculator.java" />
       </list>
     </option>
   </component>
@@ -213,7 +213,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576659805932" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576661222040" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -230,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest">
+  <component name="RunManager" selected="JUnit.CalculatorTest.testSubtractionZweiPositiveIsOk">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch.bbw.jh.App" />
       <module name="ConsoleCalculatorWithMaven_Git" />
@@ -294,13 +294,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest.testSubtractionZweiPositiveIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConsoleCalculatorWithMaven_Git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.bbw.jh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.bbw.jh" />
+      <option name="MAIN_CLASS_NAME" value="ch.bbw.jh.CalculatorTest" />
+      <option name="METHOD_NAME" value="testSubtractionZweiPositiveIsOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="Application.App (1)" />
       <item itemvalue="JUnit.CalculatorTest" />
+      <item itemvalue="JUnit.CalculatorTest.testSubtractionZweiPositiveIsOk" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.testSubtractionZweiPositiveIsOk" />
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
@@ -319,7 +337,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576246373045</updated>
       <workItem from="1576246376783" duration="3938000" />
-      <workItem from="1576657295604" duration="2579000" />
+      <workItem from="1576657295604" duration="3185000" />
     </task>
     <servers />
   </component>
@@ -335,7 +353,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6517000" />
+    <option name="totallyTimeSpent" value="7123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -385,13 +403,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbw/jh/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.5.2/junit-jupiter-api-5.5.2.pom">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -413,6 +424,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbw/jh/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>

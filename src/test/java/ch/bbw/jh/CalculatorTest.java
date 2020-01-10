@@ -19,4 +19,10 @@ public class CalculatorTest {
         testee = new Calculator();
         assertTrue(testee.subtraktion(25, 10) ==15);
     }
+
+    @Test
+    public void testSummePositivAndNegativIsOk(){
+        testee = new Calculator();
+        assertTrue(testee.summe(-5, 10) ==5);
+    }
 }

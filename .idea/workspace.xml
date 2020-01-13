@@ -4,6 +4,7 @@
     <list default="true" id="1e5c4a14-432a-42cd-938c-a0cf270923a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ch/bbw/jh/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/bbw/jh/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ch/bbw/jh/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ch/bbw/jh/CalculatorTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,13 +40,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2240" />
+          <entry key="java" value="3146" />
           <entry key="xml" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2240" />
+          <entry key="JAVA" value="3146" />
           <entry key="XML" value="80" />
         </counts>
       </usages-collector>
@@ -74,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbw/jh/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+            <state relative-caret-position="-1326">
+              <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#255#256#0" expanded="true" />
@@ -86,10 +87,6 @@
                 <element signature="e#639#640#0" expanded="true" />
                 <element signature="e#533#534#0" expanded="true" />
                 <element signature="e#561#562#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#660#661#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
                 <element signature="e#911#912#0" expanded="true" />
                 <element signature="e#939#940#0" expanded="true" />
                 <element signature="e#538#539#0" expanded="true" />
@@ -100,6 +97,12 @@
                 <element signature="e#1648#1649#0" expanded="true" />
                 <element signature="e#2039#2040#0" expanded="true" />
                 <element signature="e#2067#2068#0" expanded="true" />
+                <element signature="e#2517#2518#0" expanded="true" />
+                <element signature="e#2545#2546#0" expanded="true" />
+                <element signature="e#2631#2632#0" expanded="true" />
+                <element signature="e#2659#2660#0" expanded="true" />
+                <element signature="e#3184#3185#0" expanded="true" />
+                <element signature="e#3212#3213#0" expanded="true" />
                 <element signature="e#852#853#0" expanded="true" />
                 <element signature="e#880#881#0" expanded="true" />
                 <element signature="e#1041#1042#0" expanded="true" />
@@ -234,7 +237,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578919981174" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578922958690" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -252,7 +255,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.testSubtractionMIN_VALUEAndNegativeIsOk">
+  <component name="RunManager" selected="JUnit.CalculatorTest.testSumMIN_VALUEAndNegativeIsOk">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch.bbw.jh.App" />
       <module name="ConsoleCalculatorWithMaven_Git" />
@@ -276,7 +279,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testSubtractionMAX_VALUEAndNegativeIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.testDivisionMAX_VALUEAndNegativeIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConsoleCalculatorWithMaven_Git" />
       <extension name="coverage">
         <pattern>
@@ -286,13 +289,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ch.bbw.jh" />
       <option name="MAIN_CLASS_NAME" value="ch.bbw.jh.CalculatorTest" />
-      <option name="METHOD_NAME" value="testSubtractionMAX_VALUEAndNegativeIsOk" />
+      <option name="METHOD_NAME" value="testDivisionMAX_VALUEAndNegativeIsOk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testSubtractionMAX_VALUEIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.testDivisionMIN_VALUEAndPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConsoleCalculatorWithMaven_Git" />
       <extension name="coverage">
         <pattern>
@@ -302,13 +305,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ch.bbw.jh" />
       <option name="MAIN_CLASS_NAME" value="ch.bbw.jh.CalculatorTest" />
-      <option name="METHOD_NAME" value="testSubtractionMAX_VALUEIsOk" />
+      <option name="METHOD_NAME" value="testDivisionMIN_VALUEAndPositive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testSubtractionMIN_VALUEAndNegativeIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.testSubtractionTwoNegativeIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConsoleCalculatorWithMaven_Git" />
       <extension name="coverage">
         <pattern>
@@ -318,13 +321,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ch.bbw.jh" />
       <option name="MAIN_CLASS_NAME" value="ch.bbw.jh.CalculatorTest" />
-      <option name="METHOD_NAME" value="testSubtractionMIN_VALUEAndNegativeIsOk" />
+      <option name="METHOD_NAME" value="testSubtractionTwoNegativeIsOk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testSubtractionMIN_VALUEIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.testSumMIN_VALUEAndNegativeIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConsoleCalculatorWithMaven_Git" />
       <extension name="coverage">
         <pattern>
@@ -334,13 +337,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ch.bbw.jh" />
       <option name="MAIN_CLASS_NAME" value="ch.bbw.jh.CalculatorTest" />
-      <option name="METHOD_NAME" value="testSubtractionMIN_VALUEIsOk" />
+      <option name="METHOD_NAME" value="testSumMIN_VALUEAndNegativeIsOk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testSubtractionTwoNegarivesIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.testUnexpectedException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConsoleCalculatorWithMaven_Git" />
       <extension name="coverage">
         <pattern>
@@ -350,26 +353,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="ch.bbw.jh" />
       <option name="MAIN_CLASS_NAME" value="ch.bbw.jh.CalculatorTest" />
-      <option name="METHOD_NAME" value="testSubtractionTwoNegarivesIsOk" />
+      <option name="METHOD_NAME" value="testUnexpectedException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CalculatorTest.testSubtractionMAX_VALUEIsOk" />
-      <item itemvalue="JUnit.CalculatorTest.testSubtractionMIN_VALUEIsOk" />
-      <item itemvalue="JUnit.CalculatorTest.testSubtractionTwoNegarivesIsOk" />
-      <item itemvalue="JUnit.CalculatorTest.testSubtractionMAX_VALUEAndNegativeIsOk" />
-      <item itemvalue="JUnit.CalculatorTest.testSubtractionMIN_VALUEAndNegativeIsOk" />
+      <item itemvalue="JUnit.CalculatorTest.testDivisionMIN_VALUEAndPositive" />
+      <item itemvalue="JUnit.CalculatorTest.testSubtractionTwoNegativeIsOk" />
+      <item itemvalue="JUnit.CalculatorTest.testUnexpectedException" />
+      <item itemvalue="JUnit.CalculatorTest.testDivisionMAX_VALUEAndNegativeIsOk" />
+      <item itemvalue="JUnit.CalculatorTest.testSumMIN_VALUEAndNegativeIsOk" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest.testSubtractionMIN_VALUEAndNegativeIsOk" />
-        <item itemvalue="JUnit.CalculatorTest.testSubtractionMAX_VALUEAndNegativeIsOk" />
-        <item itemvalue="JUnit.CalculatorTest.testSubtractionTwoNegarivesIsOk" />
-        <item itemvalue="JUnit.CalculatorTest.testSubtractionMIN_VALUEIsOk" />
-        <item itemvalue="JUnit.CalculatorTest.testSubtractionMAX_VALUEIsOk" />
+        <item itemvalue="JUnit.CalculatorTest.testSumMIN_VALUEAndNegativeIsOk" />
+        <item itemvalue="JUnit.CalculatorTest.testDivisionMAX_VALUEAndNegativeIsOk" />
+        <item itemvalue="JUnit.CalculatorTest.testUnexpectedException" />
+        <item itemvalue="JUnit.CalculatorTest.testSubtractionTwoNegativeIsOk" />
+        <item itemvalue="JUnit.CalculatorTest.testDivisionMIN_VALUEAndPositive" />
       </list>
     </recent_temporary>
   </component>
@@ -390,39 +393,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest_testSummeTwoNegativesIsOk - 2020.01.13 at 12h 38m 12s.xml">
-      <configuration name="CalculatorTest.testSummeTwoNegativesIsOk" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testSubtractionMAX_VALUEAndNegativeIsOk - 2020.01.13 at 13h 51m 40s.xml">
+      <configuration name="CalculatorTest.testSubtractionMAX_VALUEAndNegativeIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_testSummeMIN_VALUEIsOk - 2020.01.13 at 12h 38m 16s.xml">
-      <configuration name="CalculatorTest.testSummeMIN_VALUEIsOk" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testSubtractionMIN_VALUEAndNegativeIsOk - 2020.01.13 at 13h 53m 04s.xml">
+      <configuration name="CalculatorTest.testSubtractionMIN_VALUEAndNegativeIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_testSummeMAX_VALUEAndNegativeIsOk - 2020.01.13 at 12h 43m 15s.xml">
-      <configuration name="CalculatorTest.testSummeMAX_VALUEAndNegativeIsOk" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testDivisionTwoPositiveIsOk - 2020.01.13 at 14h 05m 57s.xml">
+      <configuration name="CalculatorTest.testDivisionTwoPositiveIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_testSumMIN_VALUEAndNegativeIsOk - 2020.01.13 at 12h 44m 38s.xml">
+    <history-entry file="CalculatorTest_testDivisionTwoPositiveAndNegativeIsOk - 2020.01.13 at 14h 09m 49s.xml">
+      <configuration name="CalculatorTest.testDivisionTwoPositiveAndNegativeIsOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_testDivisionMAX_VALUEAndPositiveIsOk - 2020.01.13 at 14h 11m 17s.xml">
+      <configuration name="CalculatorTest.testDivisionMAX_VALUEAndPositiveIsOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_testDivisionMIN_VALUEAndPositive - 2020.01.13 at 14h 12m 28s.xml">
+      <configuration name="CalculatorTest.testDivisionMIN_VALUEAndPositive" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_testSubtractionTwoNegativeIsOk - 2020.01.13 at 14h 30m 01s.xml">
+      <configuration name="CalculatorTest.testSubtractionTwoNegativeIsOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_testDivisionMAX_VALUEAndNegativeIsOk - 2020.01.13 at 14h 39m 17s.xml">
+      <configuration name="CalculatorTest.testDivisionMAX_VALUEAndNegativeIsOk" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest_testSumMIN_VALUEAndNegativeIsOk - 2020.01.13 at 14h 42m 21s.xml">
       <configuration name="CalculatorTest.testSumMIN_VALUEAndNegativeIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_testSubtractionPositiveAndNullIsOk - 2020.01.13 at 13h 04m 53s.xml">
-      <configuration name="CalculatorTest.testSubtractionPositiveAndNullIsOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_testSubtractionMAX_VALUEIsOk - 2020.01.13 at 13h 42m 19s.xml">
-      <configuration name="CalculatorTest.testSubtractionMAX_VALUEIsOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_testSubtractionMIN_VALUEIsOk - 2020.01.13 at 13h 46m 16s.xml">
-      <configuration name="CalculatorTest.testSubtractionMIN_VALUEIsOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_testSubtractionTwoNegarivesIsOk - 2020.01.13 at 13h 47m 31s.xml">
-      <configuration name="CalculatorTest.testSubtractionTwoNegarivesIsOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_testSubtractionTwoNegarivesIsOk - 2020.01.13 at 13h 48m 36s.xml">
-      <configuration name="CalculatorTest.testSubtractionTwoNegarivesIsOk" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CalculatorTest_testSubtractionTwoNegarivesIsOk - 2020.01.13 at 13h 49m 03s.xml">
-      <configuration name="CalculatorTest.testSubtractionTwoNegarivesIsOk" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testSumMIN_VALUEAndNegativeIsOk - 2020.01.13 at 14h 42m 42s.xml">
+      <configuration name="CalculatorTest.testSumMIN_VALUEAndNegativeIsOk" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20412000" />
+    <option name="totallyTimeSpent" value="23281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -495,8 +498,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbw/jh/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="80" column="4" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+        <state relative-caret-position="-1326">
+          <caret line="32" column="63" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#255#256#0" expanded="true" />
@@ -507,10 +510,6 @@
             <element signature="e#639#640#0" expanded="true" />
             <element signature="e#533#534#0" expanded="true" />
             <element signature="e#561#562#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
             <element signature="e#911#912#0" expanded="true" />
             <element signature="e#939#940#0" expanded="true" />
             <element signature="e#538#539#0" expanded="true" />
@@ -521,6 +520,12 @@
             <element signature="e#1648#1649#0" expanded="true" />
             <element signature="e#2039#2040#0" expanded="true" />
             <element signature="e#2067#2068#0" expanded="true" />
+            <element signature="e#2517#2518#0" expanded="true" />
+            <element signature="e#2545#2546#0" expanded="true" />
+            <element signature="e#2631#2632#0" expanded="true" />
+            <element signature="e#2659#2660#0" expanded="true" />
+            <element signature="e#3184#3185#0" expanded="true" />
+            <element signature="e#3212#3213#0" expanded="true" />
             <element signature="e#852#853#0" expanded="true" />
             <element signature="e#880#881#0" expanded="true" />
             <element signature="e#1041#1042#0" expanded="true" />

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e5c4a14-432a-42cd-938c-a0cf270923a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/bbw/jh/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/bbw/jh/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ch/bbw/jh/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/bbw/jh/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ch/bbw/jh/CalculatorTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,13 +39,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1144" />
+          <entry key="java" value="1335" />
           <entry key="xml" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1144" />
+          <entry key="JAVA" value="1335" />
           <entry key="XML" value="80" />
         </counts>
       </usages-collector>
@@ -62,20 +62,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbw/jh/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbw/jh/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="738">
+              <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#255#256#0" expanded="true" />
@@ -90,6 +90,10 @@
                 <element signature="e#768#769#0" expanded="true" />
                 <element signature="e#852#853#0" expanded="true" />
                 <element signature="e#880#881#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1069#1070#0" expanded="true" />
+                <element signature="e#1150#1151#0" expanded="true" />
+                <element signature="e#1193#1194#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,8 +117,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ch/bbw/jh/jh/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/bbw/jh/jh/Calculator.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/ch/bbw/jh/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/ch/bbw/jh/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ch/bbw/jh/CalculatorTest.java" />
       </list>
     </option>
   </component>
@@ -220,7 +224,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578912444082" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578914160973" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -238,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.testUnexpectedException">
+  <component name="RunManager" selected="JUnit.CalculatorTest.testPrivateMethod">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch.bbw.jh.App" />
       <module name="ConsoleCalculatorWithMaven_Git" />
@@ -292,7 +296,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testSubtractionPositiveAndNegativeIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.testPrivateMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConsoleCalculatorWithMaven_Git" />
       <extension name="coverage">
         <pattern>
@@ -302,13 +306,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ch.bbw.jh" />
       <option name="MAIN_CLASS_NAME" value="ch.bbw.jh.CalculatorTest" />
-      <option name="METHOD_NAME" value="testSubtractionPositiveAndNegativeIsOk" />
+      <option name="METHOD_NAME" value="testPrivateMethod" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testSummeZweiPositiveIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.testProtectedMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConsoleCalculatorWithMaven_Git" />
       <extension name="coverage">
         <pattern>
@@ -318,7 +322,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ch.bbw.jh" />
       <option name="MAIN_CLASS_NAME" value="ch.bbw.jh.CalculatorTest" />
-      <option name="METHOD_NAME" value="testSummeZweiPositiveIsOk" />
+      <option name="METHOD_NAME" value="testProtectedMethod" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -342,18 +346,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CalculatorTest" />
-      <item itemvalue="JUnit.CalculatorTest.testSubtractionPositiveAndNegativeIsOk" />
-      <item itemvalue="JUnit.CalculatorTest.testSummeZweiPositiveIsOk" />
       <item itemvalue="JUnit.CalculatorTest.testExpectedExcpetion" />
       <item itemvalue="JUnit.CalculatorTest.testUnexpectedException" />
+      <item itemvalue="JUnit.CalculatorTest.testProtectedMethod" />
+      <item itemvalue="JUnit.CalculatorTest.testPrivateMethod" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.testPrivateMethod" />
+        <item itemvalue="JUnit.CalculatorTest.testProtectedMethod" />
         <item itemvalue="JUnit.CalculatorTest.testUnexpectedException" />
         <item itemvalue="JUnit.CalculatorTest.testExpectedExcpetion" />
         <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.CalculatorTest.testSummeZweiPositiveIsOk" />
-        <item itemvalue="JUnit.CalculatorTest.testSubtractionPositiveAndNegativeIsOk" />
       </list>
     </recent_temporary>
   </component>
@@ -374,9 +378,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest - 2020.01.13 at 09h 18m 28s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CalculatorTest_testSummeZweiPositiveIsOk - 2020.01.13 at 09h 18m 55s.xml">
       <configuration name="CalculatorTest.testSummeZweiPositiveIsOk" configurationId="JUnit" />
     </history-entry>
@@ -404,9 +405,12 @@
     <history-entry file="CalculatorTest_testUnexpectedException - 2020.01.13 at 10h 59m 56s.xml">
       <configuration name="CalculatorTest.testUnexpectedException" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalculatorTest_testProtectedMethod - 2020.01.13 at 12h 00m 03s.xml">
+      <configuration name="CalculatorTest.testProtectedMethod" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15237000" />
+    <option name="totallyTimeSpent" value="16892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -421,7 +425,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19739696" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19739696" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,10 +474,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbw/jh/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbw/jh/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="738">
+          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#255#256#0" expanded="true" />
@@ -488,14 +499,11 @@
             <element signature="e#768#769#0" expanded="true" />
             <element signature="e#852#853#0" expanded="true" />
             <element signature="e#880#881#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/bbw/jh/Calculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>

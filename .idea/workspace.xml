@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e5c4a14-432a-42cd-938c-a0cf270923a0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ch/bbw/jh/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ch/bbw/jh/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ch/bbw/jh/CalculatorTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,13 +39,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1335" />
+          <entry key="java" value="1810" />
           <entry key="xml" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1335" />
+          <entry key="JAVA" value="1810" />
           <entry key="XML" value="80" />
         </counts>
       </usages-collector>
@@ -74,26 +74,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbw/jh/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
-              <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+            <state relative-caret-position="564">
+              <caret line="53" column="80" selection-start-line="53" selection-start-column="80" selection-end-line="53" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#255#256#0" expanded="true" />
                 <element signature="e#295#296#0" expanded="true" />
                 <element signature="e#352#353#0" expanded="true" />
                 <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
                 <element signature="e#587#588#0" expanded="true" />
                 <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#851#852#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
                 <element signature="e#708#709#0" expanded="true" />
                 <element signature="e#768#769#0" expanded="true" />
                 <element signature="e#852#853#0" expanded="true" />
                 <element signature="e#880#881#0" expanded="true" />
                 <element signature="e#1041#1042#0" expanded="true" />
                 <element signature="e#1069#1070#0" expanded="true" />
-                <element signature="e#1150#1151#0" expanded="true" />
-                <element signature="e#1193#1194#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -224,7 +230,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578914160973" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578916732171" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -242,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.testPrivateMethod">
+  <component name="RunManager" selected="JUnit.CalculatorTest.testSumMIN_VALUEAndNegativeIsOk">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch.bbw.jh.App" />
       <module name="ConsoleCalculatorWithMaven_Git" />
@@ -266,7 +272,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.testSumMIN_VALUEAndNegativeIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConsoleCalculatorWithMaven_Git" />
       <extension name="coverage">
         <pattern>
@@ -276,27 +282,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ch.bbw.jh" />
       <option name="MAIN_CLASS_NAME" value="ch.bbw.jh.CalculatorTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.testExpectedExcpetion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ConsoleCalculatorWithMaven_Git" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch.bbw.jh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ch.bbw.jh" />
-      <option name="MAIN_CLASS_NAME" value="ch.bbw.jh.CalculatorTest" />
-      <option name="METHOD_NAME" value="testExpectedExcpetion" />
+      <option name="METHOD_NAME" value="testSumMIN_VALUEAndNegativeIsOk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testPrivateMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.testSummeMAX_VALUEAndNegativeIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConsoleCalculatorWithMaven_Git" />
       <extension name="coverage">
         <pattern>
@@ -306,13 +298,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ch.bbw.jh" />
       <option name="MAIN_CLASS_NAME" value="ch.bbw.jh.CalculatorTest" />
-      <option name="METHOD_NAME" value="testPrivateMethod" />
+      <option name="METHOD_NAME" value="testSummeMAX_VALUEAndNegativeIsOk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testProtectedMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.testSummeMAX_VALUEIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConsoleCalculatorWithMaven_Git" />
       <extension name="coverage">
         <pattern>
@@ -322,13 +314,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ch.bbw.jh" />
       <option name="MAIN_CLASS_NAME" value="ch.bbw.jh.CalculatorTest" />
-      <option name="METHOD_NAME" value="testProtectedMethod" />
+      <option name="METHOD_NAME" value="testSummeMAX_VALUEIsOk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.testUnexpectedException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorTest.testSummeMIN_VALUEIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ConsoleCalculatorWithMaven_Git" />
       <extension name="coverage">
         <pattern>
@@ -338,26 +330,42 @@
       </extension>
       <option name="PACKAGE_NAME" value="ch.bbw.jh" />
       <option name="MAIN_CLASS_NAME" value="ch.bbw.jh.CalculatorTest" />
-      <option name="METHOD_NAME" value="testUnexpectedException" />
+      <option name="METHOD_NAME" value="testSummeMIN_VALUEIsOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.testSummeTwoNegativesIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ConsoleCalculatorWithMaven_Git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.bbw.jh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ch.bbw.jh" />
+      <option name="MAIN_CLASS_NAME" value="ch.bbw.jh.CalculatorTest" />
+      <option name="METHOD_NAME" value="testSummeTwoNegativesIsOk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CalculatorTest" />
-      <item itemvalue="JUnit.CalculatorTest.testExpectedExcpetion" />
-      <item itemvalue="JUnit.CalculatorTest.testUnexpectedException" />
-      <item itemvalue="JUnit.CalculatorTest.testProtectedMethod" />
-      <item itemvalue="JUnit.CalculatorTest.testPrivateMethod" />
+      <item itemvalue="JUnit.CalculatorTest.testSummeMAX_VALUEIsOk" />
+      <item itemvalue="JUnit.CalculatorTest.testSummeMIN_VALUEIsOk" />
+      <item itemvalue="JUnit.CalculatorTest.testSummeTwoNegativesIsOk" />
+      <item itemvalue="JUnit.CalculatorTest.testSummeMAX_VALUEAndNegativeIsOk" />
+      <item itemvalue="JUnit.CalculatorTest.testSumMIN_VALUEAndNegativeIsOk" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest.testPrivateMethod" />
-        <item itemvalue="JUnit.CalculatorTest.testProtectedMethod" />
-        <item itemvalue="JUnit.CalculatorTest.testUnexpectedException" />
-        <item itemvalue="JUnit.CalculatorTest.testExpectedExcpetion" />
-        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.testSumMIN_VALUEAndNegativeIsOk" />
+        <item itemvalue="JUnit.CalculatorTest.testSummeMAX_VALUEAndNegativeIsOk" />
+        <item itemvalue="JUnit.CalculatorTest.testSummeMIN_VALUEIsOk" />
+        <item itemvalue="JUnit.CalculatorTest.testSummeTwoNegativesIsOk" />
+        <item itemvalue="JUnit.CalculatorTest.testSummeMAX_VALUEIsOk" />
       </list>
     </recent_temporary>
   </component>
@@ -378,42 +386,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest_testSummeZweiPositiveIsOk - 2020.01.13 at 09h 18m 55s.xml">
-      <configuration name="CalculatorTest.testSummeZweiPositiveIsOk" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testSummePositiveAndNullIsOk - 2020.01.13 at 12h 20m 01s.xml">
+      <configuration name="CalculatorTest.testSummePositiveAndNullIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2020.01.13 at 09h 22m 46s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testSubtractionZweiPositiveIsOk - 2020.01.13 at 12h 25m 31s.xml">
+      <configuration name="CalculatorTest.testSubtractionZweiPositiveIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2020.01.13 at 09h 31m 17s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testSummePositiveAndNullIsOk - 2020.01.13 at 12h 25m 35s.xml">
+      <configuration name="CalculatorTest.testSummePositiveAndNullIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2020.01.13 at 09h 31m 32s.xml">
-      <configuration name="CalculatorTest" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testSummeMAX_VALUEIsOk - 2020.01.13 at 12h 25m 39s.xml">
+      <configuration name="CalculatorTest.testSummeMAX_VALUEIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_testExpectedExcpetion - 2020.01.13 at 10h 53m 30s.xml">
-      <configuration name="CalculatorTest.testExpectedExcpetion" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testSummeMIN_VALUEIsOk - 2020.01.13 at 12h 25m 43s.xml">
+      <configuration name="CalculatorTest.testSummeMIN_VALUEIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_testExpectedExcpetion - 2020.01.13 at 10h 53m 53s.xml">
-      <configuration name="CalculatorTest.testExpectedExcpetion" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testSummeTwoNegativesIsOk - 2020.01.13 at 12h 27m 13s.xml">
+      <configuration name="CalculatorTest.testSummeTwoNegativesIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_testUnexpectedException - 2020.01.13 at 10h 59m 36s.xml">
-      <configuration name="CalculatorTest.testUnexpectedException" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testSummeTwoNegativesIsOk - 2020.01.13 at 12h 38m 12s.xml">
+      <configuration name="CalculatorTest.testSummeTwoNegativesIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_testExpectedExcpetion - 2020.01.13 at 10h 59m 51s.xml">
-      <configuration name="CalculatorTest.testExpectedExcpetion" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testSummeMIN_VALUEIsOk - 2020.01.13 at 12h 38m 16s.xml">
+      <configuration name="CalculatorTest.testSummeMIN_VALUEIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_testUnexpectedException - 2020.01.13 at 10h 59m 56s.xml">
-      <configuration name="CalculatorTest.testUnexpectedException" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testSummeMAX_VALUEAndNegativeIsOk - 2020.01.13 at 12h 43m 15s.xml">
+      <configuration name="CalculatorTest.testSummeMAX_VALUEAndNegativeIsOk" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_testProtectedMethod - 2020.01.13 at 12h 00m 03s.xml">
-      <configuration name="CalculatorTest.testProtectedMethod" configurationId="JUnit" />
+    <history-entry file="CalculatorTest_testSumMIN_VALUEAndNegativeIsOk - 2020.01.13 at 12h 44m 38s.xml">
+      <configuration name="CalculatorTest.testSumMIN_VALUEAndNegativeIsOk" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16892000" />
+    <option name="totallyTimeSpent" value="19299000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16897655" />
@@ -425,7 +433,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19739696" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19739696" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -434,7 +442,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.28416485" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.10845987" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -483,26 +491,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ch/bbw/jh/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+        <state relative-caret-position="564">
+          <caret line="53" column="80" selection-start-line="53" selection-start-column="80" selection-end-line="53" selection-end-column="80" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#255#256#0" expanded="true" />
             <element signature="e#295#296#0" expanded="true" />
             <element signature="e#352#353#0" expanded="true" />
             <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
             <element signature="e#587#588#0" expanded="true" />
             <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#851#852#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
             <element signature="e#708#709#0" expanded="true" />
             <element signature="e#768#769#0" expanded="true" />
             <element signature="e#852#853#0" expanded="true" />
             <element signature="e#880#881#0" expanded="true" />
             <element signature="e#1041#1042#0" expanded="true" />
             <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
           </folding>
         </state>
       </provider>

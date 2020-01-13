@@ -43,4 +43,15 @@ public class CalculatorTest {
     public void testUnexpectedException() throws ArithmeticException{
         assertTrue(testee.division(8, 0) ==6);
     }
+
+    @Test
+    public void testProtectedMethod(){
+        assertTrue(testee.protectedSumme(22, 4) ==26);
+    }
+
+    //Kann nicht auf die Methode zugreifen, da sie private ist.
+    /*@Test
+    public void testPrivateMethod(){
+        assertTrue(testee.privateSumme(50, 12) ==62);
+    }*/
 }

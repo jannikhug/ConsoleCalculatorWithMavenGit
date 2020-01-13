@@ -1,15 +1,15 @@
 package ch.bbw.jh;
 
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.Before;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.Assert.assertTrue;
 
 public class CalculatorTest {
     Calculator testee;
 
-    @BeforeEach
+    @Before
     public void setUp(){
         testee = new Calculator();
     }
@@ -32,5 +32,10 @@ public class CalculatorTest {
     @Test
     public void testSubtractionPositiveAndNegativeIsOk(){
         assertTrue(testee.subtraktion(-12, 6) ==-18);
+    }
+
+    @Test(expected=ArithmeticException.class)
+    public void testExpectedExcpetion(){
+        assertTrue(testee.division(8, 0)== 6);
     }
 }

@@ -36,6 +36,11 @@ public class CalculatorTest {
 
     @Test(expected=ArithmeticException.class)
     public void testExpectedExcpetion(){
-        assertTrue(testee.division(8, 0)== 6);
+        assertTrue(testee.division(8, 0) ==0);
+    }
+
+    @Test
+    public void testUnexpectedException() throws ArithmeticException{
+        assertTrue(testee.division(8, 0) ==6);
     }
 }

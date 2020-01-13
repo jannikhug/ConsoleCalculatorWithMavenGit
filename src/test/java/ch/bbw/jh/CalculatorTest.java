@@ -1,6 +1,7 @@
 package ch.bbw.jh;
 
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -8,27 +9,28 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class CalculatorTest {
     Calculator testee;
 
+    @BeforeEach
+    public void setUp(){
+        testee = new Calculator();
+    }
+
     @Test
     public void testSummeZweiPositiveIsOk(){
-        testee = new Calculator();
         assertTrue(testee.summe(10, 25) ==35);
     }
 
     @Test
     public void testSubtractionZweiPositiveIsOk(){
-        testee = new Calculator();
         assertTrue(testee.subtraktion(25, 10) ==15);
     }
 
     @Test
     public void testSummePositivAndNegativIsOk(){
-        testee = new Calculator();
         assertTrue(testee.summe(-5, 10) ==5);
     }
 
     @Test
     public void testSubtractionPositiveAndNegativeIsOk(){
-        testee = new Calculator();
         assertTrue(testee.subtraktion(-12, 6) ==-18);
     }
 }

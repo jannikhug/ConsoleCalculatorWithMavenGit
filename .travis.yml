@@ -1,3 +1,10 @@
 language: java
 sudo: false
 script: mvn install
+deploy:
+  provider: releases
+  api_key: "GITHUB OAUTH TOKEN"
+  file: "home/travis/.m2/repository/ch/bbw/ConsoleCalculatorWithMaven/1.0-SNAPSHOT/ConsoleCalculatorWithMaven-1.0-SNAPSHOT.jar"
+  skip_cleanup: true
+  on:
+    tags: true

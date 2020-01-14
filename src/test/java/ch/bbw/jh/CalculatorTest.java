@@ -124,10 +124,10 @@ public class CalculatorTest {
     public void testExpectedExcpetion(){
         assertTrue(testee.division(8, 0) ==0);
     }
-    @Test
+    /*@Test
     public void testUnexpectedException() throws ArithmeticException{
         assertTrue(testee.division(8, 0) ==0);
-    }
+    }*/
 
 
     //OTHER TESTCASES
